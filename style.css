@@ -187,13 +187,12 @@ body,html{
   font-weight: 500;
 
 }
-#inbox-last{
 
-  width:95%;
-  height:30%;
-  /* background-color: #6b9bff; */
+#inbox-last{
   margin-top: 10px;
   display: flex;
+  align-items: center;
+  margin-top: 20px;
 }
 #last-left{
   width:25%;
@@ -211,7 +210,6 @@ body,html{
 #last-right{
   width:75%;
   height:100%;
-  /* background-color: orange; */
   align-items: center;
   justify-content: center;
 }
@@ -382,4 +380,9 @@ body,html{
   border-radius: 50%;
   padding: 7px;
   color:#ffffff;
+}
+
+#part32 .firstimg{
+  filter: brightness(0) invert(1) sepia(1) saturate(5) hue-rotate(180deg);
+
 }
